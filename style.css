@@ -5,10 +5,11 @@ body{
 section{
     height: 500px;
 }
-
+p{
+    color: dimgray;
+}
 section p{
     margin-bottom: 30px;
-    color: dimgray;
     line-height: 25px;
     font-size: 17px;
     margin-right: 10px;
@@ -28,7 +29,7 @@ h1{
 }
 .half-width img{
     width: 100%;
-    margin-top: 3%;
+    margin-top: 5%;
 }
 .section-bg{
     background-image: url(./images/top-banner.png);
@@ -47,6 +48,54 @@ h1{
     font-weight: 700;
     border-radius: 5px;
 }
-.second_section{
+.section_margin{
     margin-top: 100px;
 }
+.single-exp-box{
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    border-radius: 5px;
+    padding: 15px 20px ;
+}
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#fullstack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+
+}
+#newbie{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
